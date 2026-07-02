@@ -1,0 +1,246 @@
+body {
+    background:linear-gradient(135deg,#0f172a,#1d4ed8,#2563eb);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-bottom: 20px;
+}
+/* =========================
+   ABOUT PAGE
+========================= */
+
+/* Body */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1d4ed8,#2563eb);
+    color:white;
+}
+
+/* Header */
+
+header{
+    background:rgba(0,0,0,0.25);
+    padding:20px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:0;
+    margin:0;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+
+/* About Section */
+
+.about-section{
+    padding:70px 40px;
+    text-align:center;
+}
+
+.about-section h1{
+    font-size:48px;
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+.about-intro{
+    max-width:900px;
+    margin:auto;
+    font-size:20px;
+    line-height:1.8;
+    margin-bottom:60px;
+}
+
+/* Cards */
+
+.about-grid{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.about-card{
+    width:280px;
+    padding:30px;
+    border-radius:20px;
+
+    background:rgba(255,255,255,0.10);
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.35);
+
+    transition:all .3s ease;
+}
+
+.about-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.45);
+}
+
+.about-card h2{
+
+    color:#ffd166;
+
+    margin-bottom:20px;
+
+    font-size:28px;
+}
+
+.about-card ul{
+
+    list-style:none;
+
+    padding:0;
+
+    text-align:left;
+}
+
+.about-card li{
+
+    margin:15px 0;
+
+    font-size:18px;
+}
+
+/* Footer */
+
+footer{
+
+    background:rgba(0,0,0,.25);
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+    margin-top:60px;
+}
+/* ===========================
+   CONTACT SECTION
+=========================== */
+
+.contact-section{
+    padding:80px 40px;
+    text-align:center;
+}
+
+.contact-section h1{
+    font-size:48px;
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+.contact-intro{
+    max-width:850px;
+    margin:0 auto 50px auto;
+    font-size:20px;
+    line-height:1.8;
+    color:white;
+}
+
+/* Contact Cards */
+
+.contact-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.contact-card{
+    width:280px;
+    background:rgba(255,255,255,0.08);
+    border-radius:18px;
+    padding:30px;
+    backdrop-filter:blur(10px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.35);
+    transition:0.3s ease;
+}
+
+.contact-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.45);
+}
+
+.contact-card h2{
+    color:#ffd166;
+    margin-bottom:20px;
+    font-size:26px;
+}
+
+.contact-card p{
+    color:white;
+    font-size:18px;
+    margin:10px 0;
+}
+
+.contact-card a{
+    color:#38bdf8;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.contact-card a:hover{
+    color:#ffffff;
+}
+
+/* Optional: Make email and location stand out */
+
+.contact-card i{
+    font-size:40px;
+    margin-bottom:15px;
+    color:#38bdf8;
+}
+header {
+    background: rgba(0,0,0,0.25);
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #38bdf8;
+}

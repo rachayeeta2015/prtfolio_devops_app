@@ -32,6 +32,13 @@ func main() {
 	http.HandleFunc("/about", aboutPage)
 	http.HandleFunc("/contact", contactPage)
 
+	// Serve CSS, images, JS files from the static folder
+	http.Handle("/static/",
+		http.StripPrefix("/static/",
+			http.FileServer(http.Dir("static"))))
+
+	log.Println("Server started at http://localhost:8080")
+
 	err := http.ListenAndServe("0.0.0.0:8080", nil)
 	if err != nil {
 		log.Fatal(err)
